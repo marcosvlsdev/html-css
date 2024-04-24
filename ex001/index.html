@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paragrafos</title>
+</head>
+
+<body>
+    <p>alguns simbolos
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &Delta;
+        &uparrow;
+    </p>
+    <p>alguns emojis
+        &#x1F436;
+    </p>
+    <img src="html-css-curso/mapa03.png" alt="mapa mundi pt1">;
+    <img src="html-css-curso/mapa07.png" alt="2">;
+    <img src="html-css-curso/mapa05.png" alt="3">;
+    <br>
+    <img src="html-css-curso/mapa09.png" alt="4">;
+    <img src="html-css-curso/mapa01.png" alt="5">;
+    <img src="html-css-curso/mapa08.png" alt="6">;
+    <br>
+    <img src="html-css-curso/mapa06.png" alt="7">;
+    <img src="html-css-curso/mapa02.png" alt="8">;
+    <img src="html-css-curso/mapa04.png" alt="9">;
+    <hr>
+
+    <a href="oi.html" target="_self"> segunda pag</a>
+    <br>
+    <a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf" target="_blank">baixar livro em pdf</a>
+    <br>
+    <a href="livro/meulivro.zip" type="application/zip" download="meulivro.pdf">meu livro em zip</a>
+    <h1>imagem dinamica</h1>
+    <p>imagem para diferentes dispositivos</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="img/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-p.png" alt="Imagem flexivel p">
+        <!-- outra maneira é usando o max-widht que teria a seguinte forma:
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Imagem flexivel g"> 
+        -->
+    </picture>
+
+    <audio preload="metadata" controls>
+        <source src="midia/homersaid-dyalla.mp3" type="audio/mpeg">
+    </audio>
+    
+
+</body>
+
+</html>
