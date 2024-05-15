@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+caption {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.5em;
+    position: relative;
+}
+
+thead th{
+    position: sticky;
+    top: -1px;
+    background-color: black;
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 5px;;
+}
+
+thead, tfoot {
+    background-color: black;
+    color: white;
+}
+
+tfoot td {
+    text-align: right;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: gray;
+}
+
+.num {
+    text-align: right;
+}
