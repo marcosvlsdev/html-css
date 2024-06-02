@@ -8,9 +8,24 @@
 <body>
     <h1>Meu primeiro formulário</h1>
     <form action="cadastro.php" method="post">
-        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+        <p>
+            <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" autocomplete="name" minlength="3" placeholder="Nome e nome composto">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <label for="idia">Dia do seu aniversário:</label>
+            <input type="date" name="dia" id="idia" value="2024-05-31" required>
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" minlength="8">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
