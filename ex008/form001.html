@@ -66,6 +66,36 @@
             <label for="ifoto">Foto de Perfil</label>
             <input type="file" name="foto" id="ifoto">
         </p>
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="estado" id="iestado">
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="BA">Bahia</option>
+                </optgroup>
+                <optgroup label="Centro-Oeste">
+                    <option value="BSB">Brasília</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iescola">Escola</label>
+            <input type="text" name="escola" id="iescola" list="lstescola">
+            <datalist id="lstescola">
+                <optgroup>
+                    <option value="ObjC">Obj Campestre</option>
+                    <option value="ObjS">Obj Senador</option>
+                </optgroup>
+                <option value="Etip">Etip Lino Jardim</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
     </form>
 </body>
 </html>
