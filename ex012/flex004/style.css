@@ -47,11 +47,12 @@ main {
 }
 
 @media (max-width : 650px) {
-    header {
-        flex-flow: column wrap;
+    header, menu {
+        flex-flow: column nowrap;
     }
 
-    menu {
-        flex-flow: column wrap;
+    a {
+        width: 90vw;
+        text-align: center;
     }
 }
