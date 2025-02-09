@@ -1,4 +1,4 @@
-# Criando README do  
+# Criando README do ZERO
  ## Curso de HTML5 e CSS3 👩‍💻
  <!-- "Windows" + "." = emojis -->
 Oque seu projeto é, qual principal objetivo, publico alvo, desafios que você teve, como você solucionou eles e o projeto inteiro em si, tecnologias, bibliotecas, frameworks, técnicas
