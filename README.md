@@ -5,7 +5,7 @@ Oque seu projeto é, qual principal objetivo, publico alvo, desafios que você t
 
 ## Fotos
 
-<a href="https://google.com"><img src= "./htmlcss-cev/exsdeimagem/imagens/pattern001.png" alt="tela aleatoria"> </a>
+<a href="https://google.com" target="_blank"><img src= "./htmlcss-cev/exsdeimagem/imagens/pattern001.png" alt="tela aleatoria"> </a>
 
 ## Tecnologias Utilizadas
 - HTML
