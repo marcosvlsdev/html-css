@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    color: white;
+    width: 1000px;
+    height: 600px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verde-claro {
+    background-color: green;
+    grid-area: 1 / 1 / span 2 / span 2;
+}
+
+.azul {
+    background-color: blue;
+    grid-column: 3 / span 3;
+}
+
+.rosa {
+    background-color: pink;
+    grid-area: 3 / 1 / span 1 / span 2;
+}
+
+.laranja {
+    background-color: orange;
+    grid-area: 2 / 3 / span 2 / span 2;
+}
+
+.verde-escuro {
+    background-color: darkgreen;
+}
+
+.marrom {
+    background-color: brown;
+}
